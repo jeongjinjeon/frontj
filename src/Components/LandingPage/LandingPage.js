@@ -7,7 +7,7 @@ function LandingPage() {
    
     useEffect(() => {
 
-        axios.get('/api/hello')
+        axios.get('/jjj/api/hello')
         .then(response=>setGreeting(response.data))
         .catch(error => console.log(error))
         
